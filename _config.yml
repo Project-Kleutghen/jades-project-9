@@ -17,11 +17,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
+title:            'Jades Project 9'
+description:      'Qing Emperor's Hindustan Jades'
 url:              'https://minicomp.github.io'
 baseurl:          '/wax'
-copyright:        'Example copyright org, 2023'
+copyright:        'Dr. Kristina Kleutghen, 2023'
 logo:             '/assets/logo.png'
 default_thumb:    '/assets/default.png'
 
