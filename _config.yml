@@ -17,12 +17,12 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
-url:              'https://minicomp.github.io'
-baseurl:          '/wax'
-copyright:        'Example copyright org, 2023'
-logo:             '/assets/logo.png'
+title:            'Hindustan Jades Project'
+description:      'Hindustan Jades Project Website with Jekyll'
+url:              'https://Project-Kleutghen.github.io'
+baseurl:          '/jades-project-9'
+copyright:        'Dr. Kristina Kleutghen, 2023'
+logo:             '/assets/logo.jpg'
 default_thumb:    '/assets/default.png'
 
 # ---------------------------------------------------------------
@@ -59,13 +59,13 @@ kramdown:
 collections:
   exhibits:
     output: true
-  qatar: # name of collection
+  my-collection: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'qatar_item' # the layout for the pages to use
+    layout: 'hindustan_item' # the layout for the pages to use
     metadata:
-      source: 'qatar.csv' # path to the metadata file within `_data`
+      source: 'collection_meta.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images/qatar' # path to the directory of images within `_data`
+      source: 'raw_images/my-collection' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -79,15 +79,21 @@ search:
   main:
     index: '/search/index.json' # file the index will get written to
     collections:
-      qatar:
+      my-collection:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
-          - artist
-          - location
-          - label
+          - object_origin
+          - cultural_context
+          - label_en
+          - label_zh
           - _date
-          - object_type
-          - current_location
+          - object_type_en
+          - object_type_zh
+          - _collection
+          - inscription_text_zh
+          - inscription_text_en
+          - pub_text
+          - pub_text_source
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
@@ -99,7 +105,7 @@ search:
 menu:
   - label: 'About'
     sub:
-      - label: 'Wax'
+      - label: 'About'
         link: '/about/'
       - label: 'Documentation'
         link: 'https://minicomp.github.io/wiki/wax/'
@@ -107,10 +113,10 @@ menu:
         link: '/credits/'
   - label: 'Exhibits'
     sub:
-      - label: 'Inline Parallax Image'
-        link: '/exhibits/a/'
-      - label: 'Inline Image References'
-        link: '/exhibits/b/'
+      - label: 'Qian Qing Gong Palace'
+        link: '/exhibits/qqg/'
+      - label: 'Yi He Xuan Palace'
+        link: '/exhibits/yhx/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
@@ -126,12 +132,12 @@ menu:
 footer:
   links:
     - label: 'GitHub'
-      link: 'https://github.com/minicomp/wax'
+      link: 'https://github.com/Project-Kleutghen/jades-project-9'
     - label: 'Credits'
       link: '/credits'
-    - label: 'Wiki'
-      link: 'https://minicomp.github.io/wiki/wax/'
+    # - label: 'Wiki'
+    #   link: 'https://minicomp.github.io/wiki/wax/'
   logos:
-    - img: '/img/logo.png'
+    - img: '/img/logo.jpg'
 
 # FIN

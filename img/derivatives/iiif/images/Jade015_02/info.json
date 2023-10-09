@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade015_02",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2736,
+  "height": 2556,
+  "sizes": [
+    {
+      "width": 2736,
+      "height": 2556
+    },
+    {
+      "width": 250,
+      "height": 234
+    },
+    {
+      "width": 1140,
+      "height": 1065
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What is Wax?
+title: What are the Hindustan Jades?
 permalink: /about/
 ---
 
