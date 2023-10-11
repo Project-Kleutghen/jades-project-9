@@ -19,4 +19,5 @@ The collection items in this edition of the website are from The National Palace
 ### Browse the Collection
 
 #### By Item Type
-{% include collection_gallery.html facet_by='object_type' collection='my-collection' %}
+{% include collection_gallery.html facet_by='object_type_en'
+collection='my-collection' %}
