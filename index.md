@@ -2,18 +2,21 @@
 layout: page
 show_title: false
 banner:
-  collection: qatar
-  pid: obj10
+  collection: my-collection
+  pid: Jade015
   y: 25%
   clickable: yes
   height: '500px'
 ---
 
-__Wax__ is a [minimal computing](http://go-dh.github.io/mincomp/) project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our [documentation](https://minicomp.github.io/wiki/#/wax/) for installation instructions and more.
+__The Qing Emperor's Hindustan Jades__ integrates text analysis, mapping, and
+interactive image viewers to visualize eighteenth-century China’s engagement
+with the Islamic world. It was launched as an accompaniment and enhancement
+of Dr. Kristina Kleutghen’s upcoming book __"The Local Exotic: Fabricating Foreign Taste in Eighteenth-Century Chinese Decorative Arts"__. The project launched in August 2019 and is currently active.
 
-The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of [WikiMedia](https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar) and [Google Art Project](https://www.google.com/culturalinstitute/about/artproject/)) and The Qatar National Library (via [World Digital Library](https://www.wdl.org/en/)).
+The collection items in this edition of the website are from The National Palace Museum, Taipei, (courtesy of [NPMT Website](https://www.npm.gov.tw/?l=2)).
 
 ### Browse the Collection
 
 #### By Item Type
-{% include collection_gallery.html facet_by='object_type' collection='qatar' %}
+{% include collection_gallery.html facet_by='object_type' collection='my-collection' %}
