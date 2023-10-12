@@ -57,8 +57,8 @@ kramdown:
 # ~> https://jekyllrb.com/docs/collections/
 
 collections:
-  exhibits:
-    output: true
+  # exhibits:
+  #   output: true
   my-collection: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'hindustan_item' # the layout for the pages to use
@@ -113,10 +113,10 @@ menu:
         link: '/credits/'
   - label: 'Exhibits'
     sub:
-      - label: 'Qian Qing Gong Palace'
-        link: '/exhibits/qqg/'
-      - label: 'Yi He Xuan Palace'
-        link: '/exhibits/yhx/'
+      - label: 'Inline Parallax Image'
+        link: '/exhibits/a/'
+      - label: 'Exhibit B Version'
+        link: '/exhibits/b/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
