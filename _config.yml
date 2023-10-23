@@ -57,8 +57,6 @@ kramdown:
 # ~> https://jekyllrb.com/docs/collections/
 
 collections:
-  # exhibits:
-  #   output: true
   my-collection: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'hindustan_item' # the layout for the pages to use
@@ -111,18 +109,20 @@ menu:
         link: 'https://minicomp.github.io/wiki/wax/'
       - label: 'Credits'
         link: '/credits/'
-  - label: 'Exhibits'
-    sub:
-      - label: 'Inline Parallax Image'
-        link: '/exhibits/a/'
-      - label: 'Exhibit B Version'
-        link: '/exhibits/b/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
     link: '/search/'
   - label: 'Reuse'
     link: '/reuse/'
+  - label: 'Maps'
+    sub:
+      - label: 'Forbidden City Map'
+        link: '/forbiddencity/'
+      - label: 'Published Place Names'
+        link: '/publishedplace/'
+      - label: 'Incised Place Names'
+        link: '/incisedplace/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
