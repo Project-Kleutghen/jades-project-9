@@ -9,7 +9,7 @@ object_origin: Central Asia (according to museum); Taipei 2007 notes that poem l
 object_type_en: plate
 object_type_zh: 盤
 cultural_context: Central Asia
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉 0632
 dpm_1925_inventory_num: 天367
 1925_inventory_loc: 乾清宮 QQG
@@ -28,10 +28,13 @@ pub_text_chapter: 卷22
 pub_text_page: 頁13
 sexagenary_year: 甲午
 reign_year: "(乾隆三十九年1774年)"
-notes_detail: '此詩加琢於該盤之盤心，藏於本院,品號天三六七,圖版貳捌,插圖41。 '
+notes_detail: 此詩加琢於該盤之盤心，藏於本院,品號天三六七,圖版貳捌,插圖41。
 text_ref: https://ctext.org/library.pl?if=gb&file=56258&page=27
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=51051
-order: '12'
+order: '04'
 layout: hindustan_item
 collection: my-collection
+thumbnail: "/img/derivatives/iiif/images/Jade035a_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade035a_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade035a/manifest.json"
 ---

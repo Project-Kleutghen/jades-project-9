@@ -7,7 +7,7 @@ object_origin: Mughal
 object_type_en: plate
 object_type_zh: 盤
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉3238
 dpm_1925_inventory_num: 天325
 1925_inventory_loc: 乾清宮 QQG
@@ -42,7 +42,7 @@ notes_detail: '此詩加琢於該玉盤上,藏於本院,品號天三二五,圖�
   盤心為乾隆三十四年（1769）御製詩〈詠痕都斯坦滿尺玉盤〉：「考工未藉玉人為，萬里從風貢自馳。巧匠由來琢喀馬，金神曾是守重池。規圓外復出瓜瓣，尺滿中仍結菃蕤。不寶華囂寶獻善，王孫圉語廑吾恩。」及「己丑新正月御題」下接「乾」「隆」二印文。詩錄於《御製詩二集》卷65頁18。盤外壁為劉統勳、劉綸、于敏中、董邦達、王際華、錢維城、曹文埴、彭元瑞、沈初、董誥等人的唱和之作，展現乾隆皇帝與詞臣文會的景象。
   附錦袱、裱錦木匣。匣上有「痕都斯坦玉盤一件甲」題簽及「如字第三十□号」殘黃簽。 清宮舊藏，原儲於紫禁城乾清宮。"'
 text_ref: https://ctext.org/library.pl?if=gb&file=68099&page=119#
-order: '04'
+order: '14'
 layout: hindustan_item
 collection: my-collection
 thumbnail: "/img/derivatives/iiif/images/Jade015_00/full/250,/0/default.jpg"

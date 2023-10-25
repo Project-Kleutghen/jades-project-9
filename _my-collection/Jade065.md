@@ -8,7 +8,7 @@ object_origin: Mughal
 object_type_en: bowl with handles
 object_type_zh: 詠痕都斯坦綠玉椀
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉  1665
 dpm_1925_inventory_num: 金1604.4
 1925_inventory_loc: 永壽宮 YSG
@@ -28,10 +28,13 @@ pub_text_chapter: 卷48
 pub_text_page: 頁4
 sexagenary_year: 己酉
 reign_year: "(乾隆五十四年1789年)"
-notes_detail: '此詩加琢於該玉碗之器表, 藏於本院,品號金一六0四4,圖版拾,插圖46。 '
+notes_detail: 此詩加琢於該玉碗之器表, 藏於本院,品號金一六0四4,圖版拾,插圖46。
 text_ref: https://ctext.org/library.pl?if=gb&file=56837&page=70
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52084
-order: '17'
+order: '09'
 layout: hindustan_item
 collection: my-collection
+thumbnail: "/img/derivatives/iiif/images/Jade065_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade065_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade065/manifest.json"
 ---

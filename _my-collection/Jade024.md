@@ -8,7 +8,7 @@ object_origin: Mughal
 object_type_en: bowl with handles
 object_type_zh: 盃 (乾隆）碗 （國立故宮博物院)
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉3165
 dpm_1925_inventory_num: 天49.25
 1925_inventory_loc: 乾清宮 QQG
@@ -35,10 +35,10 @@ pub_text_chapter: 卷90
 pub_text_page: 頁31—32
 sexagenary_year: 庚寅
 reign_year: "(乾隆三十五年1770年)"
-notes_detail: '此詩與詩跋均加琢於該玉碗(實爲碗非杯)的外壁,藏於本院,品號天四九25,圖版捌,插圖39。 '
+notes_detail: 此詩與詩跋均加琢於該玉碗(實爲碗非杯)的外壁,藏於本院,品號天四九25,圖版捌,插圖39。
 text_ref: https://ctext.org/library.pl?if=gb&file=68105&page=134
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=53588
-order: '10'
+order: '02'
 layout: hindustan_item
 collection: my-collection
 thumbnail: "/img/derivatives/iiif/images/Jade024_00/full/250,/0/default.jpg"

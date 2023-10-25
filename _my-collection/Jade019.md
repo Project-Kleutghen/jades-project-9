@@ -9,7 +9,7 @@ object_origin: Ottoman
 object_type_en: ladle
 object_type_zh: 杓
 cultural_context: Ottoman
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉3861
 dpm_1925_inventory_num: 天330
 1925_inventory_loc: 乾清宮 QQG
@@ -20,7 +20,7 @@ image_links: https://theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo=04029256&
 pub_1: Taipei 1983 p206-207 pl41
 pub_2: Taipei 2002 p155 catIV-24
 pub_3: Taipei 2007 p191/276 pl241
-text_title_zh: '題痕都斯坦玉杓 '
+text_title_zh: 題痕都斯坦玉杓
 text_title_en: On a Hindustan Jade Ladle
 inscription_position: Back of spoon bowl (QL); top of zitan box lid (QL); poetry by
   ministers on box lid (NEED)
@@ -37,7 +37,7 @@ notes_detail: 此詩加琢於該玉杓之底, 藏於本院,品號天三三0,圖�
   (webcat)
 text_ref: https://ctext.org/library.pl?if=gb&file=68103&page=117
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=54286
-order: '07'
+order: '17'
 layout: hindustan_item
 collection: my-collection
 thumbnail: "/img/derivatives/iiif/images/Jade019_00/full/250,/0/default.jpg"

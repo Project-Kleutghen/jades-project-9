@@ -7,7 +7,7 @@ object_origin: Mughal
 object_type_en: bottle and pencase
 object_type_zh: 墨瓶 and 筆室
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉3231
 dpm_1925_inventory_num: 天331
 1925_inventory_loc: 乾清宮 QQG
@@ -49,7 +49,7 @@ notes_detail: '此詩加琢於該器器表,並於宮中配製木匣,匣上刻字
   included)'
 text_ref: https://ctext.org/library.pl?if=gb&file=68096&page=71
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=53654
-order: '03'
+order: '13'
 layout: hindustan_item
 collection: my-collection
 thumbnail: "/img/derivatives/iiif/images/Jade012a_00/full/250,/0/default.jpg"

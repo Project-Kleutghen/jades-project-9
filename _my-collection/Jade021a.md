@@ -8,7 +8,7 @@ object_origin: Mughal
 object_type_en: bowl
 object_type_zh: 盌
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉2430
 dpm_1925_inventory_num: 夜191.13
 1925_inventory_loc: 頤和軒 YHX
@@ -28,10 +28,13 @@ pub_text_chapter: 卷87
 pub_text_page: 頁10
 sexagenary_year: 庚寅
 reign_year: "(乾隆三十五年1770年)"
-notes_detail: '此詩加琢於該玉碗器表,藏於本院,品號夜一九一13,圖版类,插圖38。 '
+notes_detail: 此詩加琢於該玉碗器表,藏於本院,品號夜一九一13,圖版类,插圖38。
 text_ref: https://ctext.org/library.pl?if=gb&file=68104&page=23
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52850
-order: '09'
+order: '19'
 layout: hindustan_item
 collection: my-collection
+thumbnail: "/img/derivatives/iiif/images/Jade021a_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade021a_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade021a/manifest.json"
 ---

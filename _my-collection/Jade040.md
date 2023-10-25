@@ -8,7 +8,7 @@ object_origin: Mughal
 object_type_en: ladle
 object_type_zh: 瓢
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉2810
 dpm_1925_inventory_num: 呂1847.70
 1925_inventory_loc: 養心殿 YXD
@@ -36,7 +36,10 @@ notes_detail: 此詩加琢於該玉瓢(實質爲石英而非玉也)外壁,藏於
   years." (Taipei 1983 p204)
 text_ref: https://ctext.org/library.pl?if=gb&file=56262&page=37
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=53231
-order: '13'
+order: '05'
 layout: hindustan_item
 collection: my-collection
+thumbnail: "/img/derivatives/iiif/images/Jade040_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade040_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade040/manifest.json"
 ---

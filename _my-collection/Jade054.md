@@ -8,7 +8,7 @@ object_origin: Mughal
 object_type_en: bowl with handles
 object_type_zh: 痕都斯坦白玉椀
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉1863
 dpm_1925_inventory_num: 呂640.7
 1925_inventory_loc: 養心殿 YXD
@@ -30,10 +30,10 @@ pub_text_chapter: 卷77
 pub_text_page: 頁19
 sexagenary_year: 辛丑
 reign_year: "(乾隆四十六年1781年)"
-notes_detail: '但未載詩序,當爲編修者所遺漏。然此詩序與詩,均加琢於該玉碗之器表,藏於本院,品號呂六四07,圖版玖,插圖45。 '
+notes_detail: 但未載詩序,當爲編修者所遺漏。然此詩序與詩,均加琢於該玉碗之器表,藏於本院,品號呂六四07,圖版玖,插圖45。
 text_ref: https://ctext.org/library.pl?if=gb&file=56483&page=138
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52282
-order: '16'
+order: '08'
 layout: hindustan_item
 collection: my-collection
 thumbnail: "/img/derivatives/iiif/images/Jade054_00/full/250,/0/default.jpg"

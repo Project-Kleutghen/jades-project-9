@@ -8,7 +8,7 @@ object_origin: 中亞 Central Asia; specifically Kashgar (see notes)
 object_type_en: bowl
 object_type_zh: 椀
 cultural_context: Uighur
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉0636
 dpm_1925_inventory_num: 天348
 1925_inventory_loc: 乾清宮 QQG

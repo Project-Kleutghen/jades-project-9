@@ -7,7 +7,7 @@ _date: '1775'
 object_type_en: plate
 object_type_zh: 盤
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉3878
 dpm_1925_inventory_num: 天324
 1925_inventory_loc: 乾清宮 QQG
@@ -32,7 +32,7 @@ notes_detail: 此詩加琢於該玉盤器心,藏於本院,品號天三二四,圖
   lists "rubies" instead of "colored glass"
 text_ref: https://ctext.org/library.pl?if=gb&file=56320&page=18
 museum_catalogue: https://theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo=04011780
-order: '14'
+order: '06'
 layout: hindustan_item
 collection: my-collection
 thumbnail: "/img/derivatives/iiif/images/Jade041_00/full/250,/0/default.jpg"

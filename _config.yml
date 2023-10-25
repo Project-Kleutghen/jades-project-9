@@ -57,6 +57,8 @@ kramdown:
 # ~> https://jekyllrb.com/docs/collections/
 
 collections:
+  exhibit: 
+    output: true
   my-collection: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'hindustan_item' # the layout for the pages to use

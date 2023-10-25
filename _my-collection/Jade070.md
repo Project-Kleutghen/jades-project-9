@@ -7,7 +7,7 @@ object_origin: Central Asia/Xinjiang
 object_type_en: casket for pen and inkstone
 object_type_zh: 玉筆硯甲
 cultural_context: Mixed Chinese and Hindustan
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉3888
 dpm_1925_inventory_num: 天311
 1925_inventory_loc: 乾清宮 QQG
@@ -57,7 +57,10 @@ notes_detail: 此詩加琢於該玉匣的器底, 藏於本院,品號天三一一
   Hindustani jade-carvers to do so)." (Taipei 1983 pp98-99)
 text_ref: https://ctext.org/library.pl?if=gb&file=56863&page=129
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=54313
-order: '18'
+order: '10'
 layout: hindustan_item
 collection: my-collection
+thumbnail: "/img/derivatives/iiif/images/Jade070_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade070_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade070/manifest.json"
 ---

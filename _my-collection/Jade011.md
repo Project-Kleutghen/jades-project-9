@@ -7,7 +7,7 @@ object_origin: Mughal
 object_type_en: plate
 object_type_zh: 盤
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 古玉2472
 dpm_1925_inventory_num: 天416
 1925_inventory_loc: 乾清宮 QQG
@@ -21,9 +21,7 @@ pub_2: Taipei 2002 p153 cat. IV-22
 pub_3: Taipei 2007 pp81/248, pl076
 pub_4: Taipei 2013 p83 cat. I-2.17
 pub_5: 'Weng, Yu-wen. “來自天方的仙工－簡介「南亞美玉特展」.” 故宮文物月刊 The National Palace Museum Monthly
-  of Chinese Art 410 (May 2017): 16–29.
-
-  '
+  of Chinese Art 410 (May 2017): 16–29.'
 text_title_zh: 題痕都斯坦雙玉盤得十韻
 text_title_en: On a Pair of Hindustan Jade Plates
 inscription_position: Center
@@ -44,11 +42,10 @@ notes_detail: 此詩加琢於此雙玉盤之一, 藏於本院,品號天四一六
   this one." (Taipei 2007 p248 pl076)
 text_ref: https://ctext.org/library.pl?if=gb&file=68095&page=5
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52892
-order: '02'
+order: '12'
 layout: hindustan_item
 collection: my-collection
 thumbnail: "/img/derivatives/iiif/images/Jade011_00/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/Jade011_00/full/1140,/0/default.jpg"
 manifest: "/img/derivatives/iiif/Jade011/manifest.json"
-pub_6: Taipei 2015 p32 pl005
 ---

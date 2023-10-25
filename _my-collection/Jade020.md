@@ -8,7 +8,7 @@ object_origin: Mughal
 object_type_en: bowl
 object_type_zh: 椀
 cultural_context: Mughal
-_collection: NPMT
+source_collection: NPMT
 collection_num: 故玉1668
 dpm_1925_inventory_num: 金1604.40
 1925_inventory_loc: 永壽宮 YSG
@@ -29,10 +29,10 @@ pub_text_chapter: 卷86
 pub_text_page: 頁30
 sexagenary_year: 庚寅
 reign_year: "(乾隆三十五年1770年)"
-notes_detail: '此詩與詩序均加琢於該玉碗之外壁,碗心又琢「乾隆御用」四字,藏於本院,品號金一六0四40,圖版陸,插圖37。 '
+notes_detail: 此詩與詩序均加琢於該玉碗之外壁,碗心又琢「乾隆御用」四字,藏於本院,品號金一六0四40,圖版陸,插圖37。
 text_ref: https://ctext.org/library.pl?if=gb&file=68103&page=127
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52087
-order: '08'
+order: '18'
 layout: hindustan_item
 collection: my-collection
 thumbnail: "/img/derivatives/iiif/images/Jade020_00/full/250,/0/default.jpg"
