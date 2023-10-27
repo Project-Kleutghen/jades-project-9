@@ -22,11 +22,20 @@
           {% endfor %}
         </p>
         <p class='footer-logos'>
+          {% assign logos_displayed = 0 %}
           {% for item in site.footer.logos %}
-          {% assign link = item.link | default: '#' %}
-          <a href="{{ link | absolute_url }}" aria-label="Logo link to resource">
-            <img src='{{ item.img | absolute_url }}' alt="logo"/>
-          </a>
+            {% if item.name == "WashU Logo" and logos_displayed < 2 %}
+              {% assign link = "https://wustl.edu/" %}
+              {% assign logos_displayed = logos_displayed | plus: 1 %}
+            {% elsif logos_displayed < 2 %}
+              {% assign link = item.link | default: '#' %}
+              {% assign logos_displayed = logos_displayed | plus: 1 %}
+            {% else %}
+              {% continue %}
+            {% endif %}
+            <a href="{{ link | absolute_url }}" aria-label="Logo link to resource">
+              <img src='{{ item.img | absolute_url }}' alt="logo"/>
+            </a>
           {% endfor %}
         </p>
       </div>

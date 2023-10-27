@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What are the Hindustan Jades?
+title: What are Hindustan Jades?
 permalink: /about/
 ---
 

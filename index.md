@@ -14,7 +14,7 @@ interactive image viewers to visualize eighteenth-century China’s engagement
 with the Islamic world. It was launched as an accompaniment and enhancement
 of Dr. Kristina Kleutghen’s upcoming book __"The Local Exotic: Fabricating Foreign Taste in Eighteenth-Century Chinese Decorative Arts"__. The project launched in August 2019 and is currently active.
 
-The collection items in this edition of the website are from The National Palace Museum, Taipei, (courtesy of [NPMT Website](https://www.npm.gov.tw/?l=2)).
+The collection items in this edition of the website are from The National Palace Museum, Taipei, (courtesy of [NPMT Website](https://www.npm.gov.tw/?l=2)). The map pages are currently under revision.
 
 ### Browse the Collection
 

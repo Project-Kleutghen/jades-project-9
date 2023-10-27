@@ -137,9 +137,11 @@ footer:
       link: 'https://github.com/Project-Kleutghen/jades-project-9'
     - label: 'Credits'
       link: '/credits'
-    # - label: 'Wiki'
-    #   link: 'https://minicomp.github.io/wiki/wax/'
   logos:
-    - img: '/img/logo.jpg'
+    - name: 'Jades Logo'
+      img: '/img/logo.jpg'
+    - name: 'WashU Logo'
+      img: '/img/WashULogoRGBLong.png'
+
 
 # FIN
