@@ -1,0 +1,213 @@
+---
+layout: default
+---
+{% unless page.show_title == false %}
+  <h2 class='page-title'>{{ page.title }}</h2>
+{% endunless %}
+
+{{ content }}
+
+<html>
+<head>
+<!-- Sources:
+	W3Schools HTML Tutorial: https://www.w3schools.com/html/
+-->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+<!-- Load GeoJSON File -->
+
+<script src="../assets/fc_map_data.js"></script>
+
+<!-- Add a CSS snippet to set the dimensions of the map area -->
+<style>
+#map_div {
+            position: relative;
+            height: 500px;
+            width: 900px;
+        }
+
+        #map-search-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+        }
+
+        #custom-search-input {
+            margin-right: 5px;
+        }
+
+        #search-button {
+            margin-left: 5px;
+        }
+
+        #search-hits {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.9;
+    color: white;
+}
+/* Custom style for the scrollable popup content */
+.scrollable-popup {
+  max-height: 170px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+</style>
+
+
+</head>
+<body>
+
+
+
+<!-- Add a div container for the map in the body of the HTML -->
+<div id="map_div">
+    <!-- Add search input -->
+    <div id="map-search-container">
+        <input type="text" id="custom-search-input" placeholder="Search">
+        <button id="search-button">Search</button>
+        <div id="search-hits"></div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet-search@2.9.5/dist/leaflet-search.min.js"></script>
+
+<!-- Insert a JavaScript snippet and create a map -->
+<script>
+
+ var mymap = L.map('map_div').setView([39.91873473, 116.390689], 15);
+
+ // Add basemap tiles to the map, using Open Street Maps (OSM)
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap); 
+
+
+function createPopup(feature, layer) {
+    var jadeInventory = feature.properties["jades"];
+
+    // Replace all ')' characters with '"></li><li>' to create list items
+        var modifiedJadeInventory = jadeInventory.replace(/\)/g, '"></li><li>');
+
+    var popup_text = 
+        "<b>Palace Name: </b>" + feature.properties["palace_name"] + "<br>" +
+        "<b>宮殿名稱: </b>" + feature.properties["宮殿名稱"] + "<br>" +
+        "<b>Pinyin: </b>" + feature.properties["pinyin"] + "<br>" +
+        "<b>Object Count: </b>" + feature.properties["object_cnt"] + "<br>" +
+        "<b>Jade Inventory: </b><ul class='scrollable-popup'><li>" + modifiedJadeInventory + "</li></ul>";
+
+    layer.bindPopup(popup_text);
+}
+
+
+// Color Ramp attributes
+function getColor(d) {
+ return d <= 5 && d >=1 ? '#fcae91' :
+        d <= 10 && d >=6 ? "#fb6a4a" :
+        d > 10 ? "#de2d26" :
+                      "#fee5d9"; //beige
+}
+
+// Create control object
+var legend = L.control({position:'bottomright'});
+
+// create function for legend
+var categories = ["1-5 Jades", "6-10 Jades", "10 or more Jades"];
+var colors = ['#fcae91', '#fb6a4a', '#de2d26'];
+
+legend.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info legend'),
+    labels = ['<strong>Legend</strong>'],
+    categories = ['1-5 Jades', '6-10 Jades', '10 or more Jades']
+
+    for (var i = 0; i < categories.length; i++) {
+        div.innerHTML += 
+            '<i style="background:' + colors[i] + '"></i> ' +
+            (categories[i] ? categories[i] : '+') + '<br>';
+    }
+
+    return div;
+};
+
+legend.addTo(mymap);
+
+
+// Create the Point Layer, bringing in the GeoJSON markers
+var points = L.geoJSON(markers, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+            radius: feature.properties["object_cnt"]*5,
+            fillColor: getColor(feature.properties["object_cnt"]),
+            color: 'white',
+            fillOpacity: .5,
+            weight: 1
+        });
+    },
+    onEachFeature:createPopup
+}).addTo(mymap);
+
+document.getElementById("search-button").addEventListener("click", function () {
+    // Get the search query from the input field
+    var query = document.getElementById("custom-search-input").value.toLowerCase();
+    
+   // Clear the search marker when the input is changed
+document.getElementById("custom-search-input").addEventListener("input", function () {
+    clearSearchMarker();
+});
+
+
+    // Iterate through GeoJSON features
+    points.eachLayer(function (layer) {
+        // Check if any of the desired properties contain the query
+        if (
+            query === "" || // Show all features when the query is empty
+            layer.feature.properties.palace_name.toLowerCase().includes(query) ||
+            layer.feature.properties.jades.toLowerCase().includes(query) ||
+            layer.feature.properties.宮殿名稱.toLowerCase().includes(query)
+        ) {
+            // Show the matching feature
+            layer.addTo(mymap);
+
+            // Add a marker at the location of the search result
+            var latlng = layer.getLatLng();
+            searchMarker = L.marker(latlng).addTo(mymap);
+        } else {
+            // Hide non-matching features
+            mymap.removeLayer(layer);
+        }
+    });
+})
+
+
+</script>
+</body>
+</html>
