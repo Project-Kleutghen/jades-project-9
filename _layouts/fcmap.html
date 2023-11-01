@@ -80,6 +80,7 @@ layout: default
 .scrollable-popup {
   max-height: 170px; /* Adjust the maximum height as needed */
   overflow-y: auto;
+  font-size: 13px;
 }
 </style>
 
@@ -115,8 +116,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 function createPopup(feature, layer) {
     var jadeInventory = feature.properties["jades"];
 
-    // Replace all ')' characters with '"></li><li>' to create list items
-        var modifiedJadeInventory = jadeInventory.replace(/\)/g, '"></li><li>');
+    // Replace all ')' characters with ')</li><li>' to create list items
+    var modifiedJadeInventory = jadeInventory.replace(/\)/g, ')</li><li>');
 
     var popup_text = 
         "<b>Palace Name: </b>" + feature.properties["palace_name"] + "<br>" +
@@ -124,6 +125,9 @@ function createPopup(feature, layer) {
         "<b>Pinyin: </b>" + feature.properties["pinyin"] + "<br>" +
         "<b>Object Count: </b>" + feature.properties["object_cnt"] + "<br>" +
         "<b>Jade Inventory: </b><ul class='scrollable-popup'><li>" + modifiedJadeInventory + "</li></ul>";
+
+    // Remove the trailing <li> element
+    popup_text = popup_text.replace(/<li><\/li><\/ul>/, "</ul>");
 
     layer.bindPopup(popup_text);
 }
