@@ -10,8 +10,8 @@ $logo: url("{{ '/assets/logo.png' | absolute_url }}");
 
 /* text */
 
-$body-font:       'Open Sans', 'sans-serif';
-$heading-font:    'Open Sans', 'sans-serif';
+$body-font:       'Nanum Myeong';
+$heading-font:    'Nanum Myeong';
 
 
 /* Image Size */
@@ -23,7 +23,7 @@ $thumbnail-width: 140px;
 
 $text-color:      #100c01;
 $bg-color:        #ffffff;
-$neutral:         #eae7de;
+$neutral:         #b2b28e;
 $accent-light:    #966d09;
 $accent-dark:     #644906;
 
@@ -49,3 +49,5 @@ font & asset import
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&font-display=auto');
 @import 'wax';
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+TC&display=swap');

@@ -34,7 +34,7 @@ p {
   margin-bottom: $less-margin;
   letter-spacing: .02rem;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.10rem;
   line-height: 1.75rem;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -199,7 +199,7 @@ content section
 
 #wax-footer {
   width: 100vw;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   padding-top: 3rem;
   background-color: $neutral;
   col {
@@ -215,11 +215,12 @@ content section
     font-family: $heading-font;
     padding-bottom: 1em;
     margin: 0;
+    font-size: 1.10em;
   }
   .footer-description {
     font-family: $heading-font;
     margin: 0;
-    font-size: .9em;
+    font-size: 1em;
     line-height: 1.2;
   }
   .footer-copyright {
