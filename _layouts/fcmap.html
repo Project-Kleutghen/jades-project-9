@@ -7,8 +7,10 @@ layout: default
 
 {{ content }}
 
+<!DOCTYPE html>
 <html>
 <head>
+
 <!-- Sources:
 	W3Schools HTML Tutorial: https://www.w3schools.com/html/
 -->
@@ -22,14 +24,15 @@ layout: default
 
 <!-- Load GeoJSON File -->
 
-<script src="../assets/fc_map_data.js"></script>
+<!-- <script src="fc_map_data.js"></script> -->
+<script src="../assets/buildings_geo.js"></script>
 
 <!-- Add a CSS snippet to set the dimensions of the map area -->
 <style>
 #map_div {
             position: relative;
             height: 500px;
-            width: 900px;
+            width: 1000px;
         }
 
         #map-search-container {
@@ -82,13 +85,12 @@ layout: default
   overflow-y: auto;
   font-size: 13px;
 }
+
 </style>
 
 
 </head>
 <body>
-
-
 
 <!-- Add a div container for the map in the body of the HTML -->
 <div id="map_div">
@@ -112,27 +114,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(mymap); 
 
-
-function createPopup(feature, layer) {
-    var jadeInventory = feature.properties["jades"];
-
-    // Replace all ')' characters with ')</li><li>' to create list items
-    var modifiedJadeInventory = jadeInventory.replace(/\)/g, ')</li><li>');
-
-    var popup_text = 
-        "<b>Palace Name: </b>" + feature.properties["palace_name"] + "<br>" +
-        "<b>宮殿名稱: </b>" + feature.properties["宮殿名稱"] + "<br>" +
-        "<b>Pinyin: </b>" + feature.properties["pinyin"] + "<br>" +
-        "<b>Object Count: </b>" + feature.properties["object_cnt"] + "<br>" +
-        "<b>Jade Inventory: </b><ul class='scrollable-popup'><li>" + modifiedJadeInventory + "</li></ul>";
-
-    // Remove the trailing <li> element
-    popup_text = popup_text.replace(/<li><\/li><\/ul>/, "</ul>");
-
-    layer.bindPopup(popup_text);
-}
-
-
 // Color Ramp attributes
 function getColor(d) {
  return d <= 5 && d >=1 ? '#fcae91' :
@@ -141,6 +122,19 @@ function getColor(d) {
                       "#fee5d9"; //beige
 }
 
+ // Create the "buildings" layer from GeoJSON data
+ var buildingsLayer = L.geoJSON(buildings, {
+            style: function (feature) {
+                var d = feature.properties.object_cnt;
+                return {
+                    fillColor: getColor(d),
+                    weight: 1,
+                    opacity: 1,
+                    color: 'black',
+                    fillOpacity: 0.7
+                };
+            }
+        }).addTo(mymap);
 // Create control object
 var legend = L.control({position:'bottomright'});
 
@@ -164,24 +158,31 @@ legend.onAdd = function (map) {
 
 legend.addTo(mymap);
 
+// Update the popup content for the "buildings" layer
+function createPopup(feature, layer) {
+            var popup_text =
+                "<b>English Name: </b>" + feature.properties["palace_en"] + "<br>" +
+                "<b>Chinese Name: </b>" + feature.properties["palace_zh"] + "<br>" +
+                "<b>Pinyin: </b>" + feature.properties["pinyin"] + "<br>" +
+                "<b>Object Count: </b>" + feature.properties["object_cnt"] + "<br>";
 
-// Create the Point Layer, bringing in the GeoJSON markers
-var points = L.geoJSON(markers, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-            radius: feature.properties["object_cnt"]*5,
-            fillColor: getColor(feature.properties["object_cnt"]),
-            color: 'white',
-            fillOpacity: .5,
-            weight: 1
-        });
-    },
-    onEachFeature:createPopup
-}).addTo(mymap);
+            layer.bindPopup(popup_text);
+        }
+
+// Attach the updated popup function to the "buildings" layer
+buildingsLayer.eachLayer(function (layer) {
+            createPopup(layer.feature, layer);
+        }).addTo(mymap)
+
+
 
 document.getElementById("search-button").addEventListener("click", function () {
     // Get the search query from the input field
-    var query = document.getElementById("custom-search-input").value.toLowerCase();
+    var inputField = document.getElementById("custom-search-input");
+var query = inputField ? inputField.value.toLowerCase() : '';
+
+// Rest of your search functionality
+
     
    // Clear the search marker when the input is changed
 document.getElementById("custom-search-input").addEventListener("input", function () {
@@ -189,28 +190,33 @@ document.getElementById("custom-search-input").addEventListener("input", functio
 });
 
 
-    // Iterate through GeoJSON features
-    points.eachLayer(function (layer) {
-        // Check if any of the desired properties contain the query
-        if (
-            query === "" || // Show all features when the query is empty
-            layer.feature.properties.palace_name.toLowerCase().includes(query) ||
-            layer.feature.properties.jades.toLowerCase().includes(query) ||
-            layer.feature.properties.宮殿名稱.toLowerCase().includes(query)
-        ) {
-            // Show the matching feature
-            layer.addTo(mymap);
+    // Iterate through GeoJSON features in "buildings" layer
+buildingsLayer.eachLayer(function (layer) {
+    // Check if any of the desired properties contain the query
+    if (
+        query === "" || // Show all features when the query is empty
+        layer.feature.properties.palace_en.toLowerCase().includes(query) ||
+        layer.feature.properties.palace_zh.toLowerCase().includes(query) ||
+        layer.feature.properties.pinyin.toLowerCase().includes(query)
+            ) {
+             // Show the matching feature
+                layer.addTo(mymap);
 
             // Add a marker at the location of the search result
-            var latlng = layer.getLatLng();
+            var latlng = layer.getBounds().getCenter();
             searchMarker = L.marker(latlng).addTo(mymap);
         } else {
             // Hide non-matching features
             mymap.removeLayer(layer);
         }
     });
-})
+});
 
+function clearSearchMarker() {
+    if (searchMarker) {
+        mymap.removeLayer(searchMarker);
+    }
+}
 
 </script>
 </body>

@@ -3,20 +3,20 @@ layout: none
 ---
 {
   "@type": "oa:Annotation",
-  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Jade021a_01.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/jade021a_01.json",
   "motivation": "sc:painting",
   "resource": {
-    "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade021a_01/full/full/0/default.jpg",
+    "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade021a_01/full/full/0/default.jpg",
     "@type": "dcterms:Image",
     "format": "image/jpeg",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade021a_01",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade021a_01",
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
-    "width": 3053,
-    "height": 2290
+    "width": 1088,
+    "height": 816
   },
-  "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Jade021a_01.json",
+  "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/jade021a_01.json",
   "@context": "http://iiif.io/api/presentation/2/context.json"
 }

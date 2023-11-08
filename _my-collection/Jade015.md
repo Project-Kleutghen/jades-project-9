@@ -1,5 +1,5 @@
 ---
-pid: Jade015
+pid: jade015
 label_en: Large bluish-green jade lotus flower plate (1983) Floral plate (2007, webcat)
 label_zh: 青綠玉蓮瓣大盤 (1983) 花式盤 (2007, webcat)
 _date: '1769'
@@ -42,10 +42,10 @@ notes_detail: '此詩加琢於該玉盤上,藏於本院,品號天三二五,圖�
   盤心為乾隆三十四年（1769）御製詩〈詠痕都斯坦滿尺玉盤〉：「考工未藉玉人為，萬里從風貢自馳。巧匠由來琢喀馬，金神曾是守重池。規圓外復出瓜瓣，尺滿中仍結菃蕤。不寶華囂寶獻善，王孫圉語廑吾恩。」及「己丑新正月御題」下接「乾」「隆」二印文。詩錄於《御製詩二集》卷65頁18。盤外壁為劉統勳、劉綸、于敏中、董邦達、王際華、錢維城、曹文埴、彭元瑞、沈初、董誥等人的唱和之作，展現乾隆皇帝與詞臣文會的景象。
   附錦袱、裱錦木匣。匣上有「痕都斯坦玉盤一件甲」題簽及「如字第三十□号」殘黃簽。 清宮舊藏，原儲於紫禁城乾清宮。"'
 text_ref: https://ctext.org/library.pl?if=gb&file=68099&page=119#
-order: '14'
+order: '04'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/Jade015_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/Jade015_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/Jade015/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/jade015_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/jade015_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/jade015/manifest.json"
 ---

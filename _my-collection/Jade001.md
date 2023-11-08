@@ -1,5 +1,5 @@
 ---
-pid: Jade001
+pid: jade001
 label_en: Grayish-green jade bowl (1983); Bowl with deep foot (Taipei 2007/2015);
   Ash-green jade bowl (Taipei 2002); "Xiang Fei's bowl" (Teng 1993)
 label_zh: 青灰玉碗 (Taipei 1983, Taipei 2002); 厚足碗 (2015)
@@ -47,7 +47,7 @@ museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=51055
 order: '00'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/Jade001_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/Jade001_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/Jade001/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/jade001_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/jade001_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/jade001/manifest.json"
 ---

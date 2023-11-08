@@ -1,5 +1,5 @@
 ---
-pid: Jade053
+pid: jade053
 label_en: Large round white jade bowl (Taipei 1983) Bowl in the style of a four-petal
   flower (2007)
 label_zh: 白玉大圓碗 (Taipei 1983) 四瓣花式碗 (Taipei 2007)
@@ -17,7 +17,7 @@ en_measurements: Rim diameter 25.2cm, base diameter 16cm, height 6.8cm, body wal
 npmt_1983_poem_listing: '53'
 pub_1: Taipei 1983 pp130-131 pl3
 pub_2: Taipei 2007 pp57/242 cat045
-text_title_zh: 詠痕都斯坦盈尺椀十二韻
+text_title_zh: '詠痕都斯坦盈尺椀十二韻 '
 text_title_en: '"Twelve Verses on a Foot-Sized Hindustan Bowl"'
 inscription_position: Inner wall
 inscription_text_zh: '度尺盈周尺,貢珍果國珍,潜光煥山澤,垂棘暎星辰,美質出龍首,良工造罽賓,流離傳漢史,琬琰賦唐人,徑一繩引直,圍三規中循,釘心含蕚簇,分瓣布英匀,列宿都拱北,四時原始春,雨風占異好,
@@ -34,10 +34,10 @@ notes_detail: 此詩加琢於該玉椀之器心,藏於本院,品號爲四九九7
   nearly identical but slightly smaller bowl, incised with a somewhat similar poem.
 text_ref: https://ctext.org/library.pl?if=gb&file=56483&page=112
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=51154
-order: '07'
+order: '15'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/Jade053_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/Jade053_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/Jade053/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/jade053_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/jade053_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/jade053/manifest.json"
 ---

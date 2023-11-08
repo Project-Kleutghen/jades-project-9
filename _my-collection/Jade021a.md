@@ -1,5 +1,5 @@
 ---
-pid: Jade021a
+pid: jade021a
 label_en: Bluish-white jade bowl with two handles (Taipei 1983, DigCat), jade bowl
   with two bud-shaped handles (Taipei 2007)
 label_zh: 青玉雙耳碗 (Taipei 1983) 平口花蕾形雙柄碗 (Taipei 2007, DigCat)
@@ -31,10 +31,10 @@ reign_year: "(乾隆三十五年1770年)"
 notes_detail: 此詩加琢於該玉碗器表,藏於本院,品號夜一九一13,圖版类,插圖38。
 text_ref: https://ctext.org/library.pl?if=gb&file=68104&page=23
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52850
-order: '19'
+order: '09'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/Jade021a_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/Jade021a_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/Jade021a/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/jade021a_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/jade021a_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/jade021a/manifest.json"
 ---

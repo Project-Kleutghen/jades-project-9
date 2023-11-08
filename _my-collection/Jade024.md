@@ -1,5 +1,5 @@
 ---
-pid: Jade024
+pid: jade024
 label_en: Bluish-white jade bowl with two handles (1983) Flower-shaped bowl with two
   bud-shaped handles (2007) Jade bowl with two ears (collection site)
 label_zh: 青玉雙耳碗 (1983)花口花蕾形雙柄碗 (2007, collection site)
@@ -38,10 +38,10 @@ reign_year: "(乾隆三十五年1770年)"
 notes_detail: 此詩與詩跋均加琢於該玉碗(實爲碗非杯)的外壁,藏於本院,品號天四九25,圖版捌,插圖39。
 text_ref: https://ctext.org/library.pl?if=gb&file=68105&page=134
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=53588
-order: '02'
+order: '10'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/Jade024_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/Jade024_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/Jade024/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/jade024_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/jade024_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/jade024/manifest.json"
 ---
