@@ -1,5 +1,5 @@
 ---
-pid: jade020
+pid: Jade020
 label_en: White jade bowl with two handles (Taipei 1983) White jade bowl with twin
   handles (Taipei 2002) jade bowl with two bud-shaped handles (Taipei 2007)
 label_zh: 白玉雙耳碗 (Taipei 1983, Taipei 2002) 平口花蕾形雙柄碗 (Taipei 2007)
@@ -32,10 +32,10 @@ reign_year: "(乾隆三十五年1770年)"
 notes_detail: 此詩與詩序均加琢於該玉碗之外壁,碗心又琢「乾隆御用」四字,藏於本院,品號金一六0四40,圖版陸,插圖37。
 text_ref: https://ctext.org/library.pl?if=gb&file=68103&page=127
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52087
-order: '08'
+order: '18'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade020_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade020_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade020/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/Jade020_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade020_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade020/manifest.json"
 ---

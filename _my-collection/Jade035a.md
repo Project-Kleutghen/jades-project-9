@@ -1,5 +1,5 @@
 ---
-pid: jade035a
+pid: Jade035a
 label_en: Large round dark green jade plate (1983, webcat), jade plate (2007)
 label_zh: 碧玉大圓盤 (1983), 玉盤 (2007, webcat)
 _date: '1774'
@@ -31,10 +31,10 @@ reign_year: "(乾隆三十九年1774年)"
 notes_detail: 此詩加琢於該盤之盤心，藏於本院,品號天三六七,圖版貳捌,插圖41。
 text_ref: https://ctext.org/library.pl?if=gb&file=56258&page=27
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=51051
-order: '12'
+order: '04'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade035a_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade035a_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade035a/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/Jade035a_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade035a_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade035a/manifest.json"
 ---

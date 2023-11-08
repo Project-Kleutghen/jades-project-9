@@ -1,5 +1,5 @@
 ---
-pid: jade041
+pid: Jade041
 label_en: Green jade plate inlaid with gold wire and colored glass (1983); Round plate
   with carved floral patterns (2007)
 label_zh: 蒙兀兒帝國 碧玉金絲盤 or 雕花盤
@@ -32,10 +32,10 @@ notes_detail: 此詩加琢於該玉盤器心,藏於本院,品號天三二四,圖
   lists "rubies" instead of "colored glass"
 text_ref: https://ctext.org/library.pl?if=gb&file=56320&page=18
 museum_catalogue: https://theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo=04011780
-order: '14'
+order: '06'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade041_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade041_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade041/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/Jade041_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade041_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade041/manifest.json"
 ---

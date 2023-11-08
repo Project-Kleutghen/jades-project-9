@@ -1,5 +1,5 @@
 ---
-pid: jade011
+pid: Jade011
 label_en: Large ash-green jade plate in the shape of a lotus blossom (webcat)
 label_zh: 花式盤 (2007, webcat)
 _date: '1768'
@@ -42,11 +42,10 @@ notes_detail: 此詩加琢於此雙玉盤之一, 藏於本院,品號天四一六
   this one." (Taipei 2007 p248 pl076)
 text_ref: https://ctext.org/library.pl?if=gb&file=68095&page=5
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52892
-order: '02'
+order: '12'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade011_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade011_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade011/manifest.json"
-pub_6: Taipei 2015 p32 pl005
+thumbnail: "/img/derivatives/iiif/images/Jade011_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade011_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade011/manifest.json"
 ---

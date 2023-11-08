@@ -1,5 +1,5 @@
 ---
-pid: jade090
+pid: Jade090
 label_en: Jade small jue cup
 label_zh: 玉小爵杯
 _date: '1817'
@@ -15,7 +15,7 @@ image_links: https://theme.npm.edu.tw/opendata/DigitImageSets.aspx?sNo=04016869&
 pub_1: Taipei 1983 p178-179 pl27
 pub_2: Taipei 2007 p171 cat.218
 pub_3: Taipei 2015 p156 cat.153
-text_title_zh: " 嘉慶二十二年七月初十日喀什噶爾呈進□玉週身花小爵盃一個"
+text_title_zh: 嘉慶二十二年七月初十日喀什噶爾呈進□玉週身花小爵盃一個
 text_title_en: Jade small jue cup
 inscription_position: Text inscribed on imperial yellow slip attached to embroidered
   "Muslim cloth" (Huibu 回布) bag
@@ -33,11 +33,10 @@ sexagenary_year: N/A
 reign_year: JQ 22 (1817)
 text_ref: https://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=54054
 museum_catalogue: https://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=54054
-order: '19'
+order: '11'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade090_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade090_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade090/manifest.json"
-zh_measurements: 高5.1公分;長7.4公分;寬:6.2公分
+thumbnail: "/img/derivatives/iiif/images/Jade090_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade090_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade090/manifest.json"
 ---

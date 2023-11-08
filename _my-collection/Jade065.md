@@ -1,5 +1,5 @@
 ---
-pid: jade065
+pid: Jade065
 label_en: Green jade bowl with two handles (1983) Flower-shaped bowl with two bud-shaped
   handles (2007) Green jade bowl with two handles (cat web)
 label_zh: 碧玉雙耳碗 (1983) 花口花蕾形雙柄碗 (2007, cat web)
@@ -31,10 +31,10 @@ reign_year: "(乾隆五十四年1789年)"
 notes_detail: 此詩加琢於該玉碗之器表, 藏於本院,品號金一六0四4,圖版拾,插圖46。
 text_ref: https://ctext.org/library.pl?if=gb&file=56837&page=70
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52084
-order: '17'
+order: '09'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade065_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade065_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade065/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/Jade065_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade065_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade065/manifest.json"
 ---

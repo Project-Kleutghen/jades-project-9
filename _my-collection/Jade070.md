@@ -1,5 +1,5 @@
 ---
-pid: jade070
+pid: Jade070
 label_en: Rectangular pen-and-ink box with white-jade panels (Taipei 1983, webcat)
   Jade Box for pen and inkstone (Taipei 2015)
 label_zh: 痕都斯坦玉墨瓶筆室 (webcat) 白玉墨瓶筆室 (Taipei 1983)
@@ -57,10 +57,10 @@ notes_detail: 此詩加琢於該玉匣的器底, 藏於本院,品號天三一一
   Hindustani jade-carvers to do so)." (Taipei 1983 pp98-99)
 text_ref: https://ctext.org/library.pl?if=gb&file=56863&page=129
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=54313
-order: '18'
+order: '10'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade070_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade070_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade070/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/Jade070_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade070_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade070/manifest.json"
 ---

@@ -1,5 +1,5 @@
 ---
-pid: jade054
+pid: Jade054
 label_en: White jade bowl with two handles (1983) Jade bowl with two bud-shaped handles
   (2007) white jade bowl with two handles (online cat)
 label_zh: 白玉雙耳碗 (1983) 平口花蕾形雙柄碗 (2007, online cat)
@@ -33,10 +33,10 @@ reign_year: "(乾隆四十六年1781年)"
 notes_detail: 但未載詩序,當爲編修者所遺漏。然此詩序與詩,均加琢於該玉碗之器表,藏於本院,品號呂六四07,圖版玖,插圖45。
 text_ref: https://ctext.org/library.pl?if=gb&file=56483&page=138
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=52282
-order: '16'
+order: '08'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade054_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade054_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade054/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/Jade054_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade054_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade054/manifest.json"
 ---

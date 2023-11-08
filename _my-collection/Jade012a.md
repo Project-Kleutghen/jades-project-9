@@ -1,5 +1,5 @@
 ---
-pid: jade012a
+pid: Jade012a
 label_en: Bluish-green jade pen-case with ink container (Taipei 1983), Jade ink vessel
   and brush holder (2002, webcat), Ink bottle and brush case (2007)
 _date: '1768'
@@ -49,10 +49,10 @@ notes_detail: '此詩加琢於該器器表,並於宮中配製木匣,匣上刻字
   included)'
 text_ref: https://ctext.org/library.pl?if=gb&file=68096&page=71
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=53654
-order: '03'
+order: '13'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade012a_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade012a_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade012a/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/Jade012a_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade012a_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade012a/manifest.json"
 ---

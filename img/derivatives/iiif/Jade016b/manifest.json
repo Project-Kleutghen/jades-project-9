@@ -3,104 +3,104 @@ layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade016b/manifest.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Jade016b/manifest.json",
   "@type": "sc:Manifest",
-  "label": "jade016b",
-  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_00/full/250,/0/default.jpg",
+  "label": "Jade016b",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_00/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
   "sequences": [
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/jade016b_00.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/Jade016b_00.json",
       "@type": "sc:Sequence",
       "canvases": [
         {
           "@type": "sc:Canvas",
-          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/jade016b_00.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Jade016b_00.json",
           "label": "Page 1",
           "width": 2176,
           "height": 1632,
-          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_00/full/250,/0/default.jpg",
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_00/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/jade016b_00.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Jade016b_00.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_00/full/full/0/default.jpg",
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_00/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_00",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_00",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 1088,
                 "height": 816
               },
-              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/jade016b_00.json"
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Jade016b_00.json"
             }
           ]
         },
         {
           "@type": "sc:Canvas",
-          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/jade016b_01.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Jade016b_01.json",
           "label": "Page 2",
           "width": 2176,
           "height": 1632,
-          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_01/full/250,/0/default.jpg",
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_01/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/jade016b_01.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Jade016b_01.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_01/full/full/0/default.jpg",
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_01/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_01",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_01",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 1088,
                 "height": 816
               },
-              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/jade016b_01.json"
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Jade016b_01.json"
             }
           ]
         },
         {
           "@type": "sc:Canvas",
-          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/jade016b_02.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Jade016b_02.json",
           "label": "Page 3",
           "width": 2176,
           "height": 1632,
-          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_02/full/250,/0/default.jpg",
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_02/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/jade016b_02.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Jade016b_02.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_02/full/full/0/default.jpg",
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_02/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_02",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_02",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 1088,
                 "height": 816
               },
-              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/jade016b_02.json"
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Jade016b_02.json"
             }
           ]
         }
       ]
     }
   ],
-  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_00/full/full/0/default.jpg",
-  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade016b_00/full/1140,/0/default.jpg"
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_00/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade016b_00/full/1140,/0/default.jpg"
 }

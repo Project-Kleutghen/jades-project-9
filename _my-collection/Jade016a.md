@@ -1,5 +1,5 @@
 ---
-pid: jade016a
+pid: Jade016a
 label_en: Flower-shaped gray jade bowl (1983); Flower-shaped bowl, bluish-grey jade
   (2007/2015);
 label_zh: 青灰花式碗 (1983); 花式碗 (2007)
@@ -17,7 +17,7 @@ npmt_1983_poem_listing: '16'
 pub_1: Taipei 1983 pp128-129 pl2
 pub_2: Taipei 2007 p58/242 cat046
 pub_3: Taipei 2015 p43 cat008
-text_title_zh: '詠痕都斯坦玉椀 '
+text_title_zh: 詠痕都斯坦玉椀
 inscription_position: Inner wall; base incised with 乾隆御詠 "Recited/Composed by the
   Qianlong emperor" in seal script
 inscription_text_zh: '良璆出大蒙,山石那須攻,省力資水磨,精鐫本鬼工。式成瓜列瓣,氣吐草垂虹,曾未三朡伐,貢原西旅同。 '
@@ -34,10 +34,10 @@ notes_detail: '此詩加琢於兩件玉碗,均收藏於本院,品號天四一九
   incised on interior walls'
 text_ref: https://ctext.org/library.pl?if=gb&file=68100&page=37
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=53643
-order: '05'
+order: '15'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade016a_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade016a_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade016a/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/Jade016a_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade016a_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade016a/manifest.json"
 ---

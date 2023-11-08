@@ -1,5 +1,5 @@
 ---
-pid: jade040
+pid: Jade040
 label_en: Quartz scoop in halved double gourd shape (webcat) Gourd-shaped cup (Taipei
   2007) **THIS IS WHITE QUARTZ, NOT NEPHRITE***
 label_zh: 葫蘆形杯
@@ -36,10 +36,10 @@ notes_detail: 此詩加琢於該玉瓢(實質爲石英而非玉也)外壁,藏於
   years." (Taipei 1983 p204)
 text_ref: https://ctext.org/library.pl?if=gb&file=56262&page=37
 museum_catalogue: http://antiquities.npm.gov.tw/Utensils_Page.aspx?ItemId=53231
-order: '13'
+order: '05'
 layout: hindustan_item
 collection: my-collection
-thumbnail: "/img/derivatives/iiif/images/jade040_00/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/jade040_00/full/1140,/0/default.jpg"
-manifest: "/img/derivatives/iiif/jade040/manifest.json"
+thumbnail: "/img/derivatives/iiif/images/Jade040_00/full/250,/0/default.jpg"
+full: "/img/derivatives/iiif/images/Jade040_00/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/Jade040/manifest.json"
 ---
