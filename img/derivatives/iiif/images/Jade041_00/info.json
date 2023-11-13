@@ -3,7 +3,7 @@ layout: none
 ---
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Jade041_00",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/jade041_00",
   "protocol": "http://iiif.io/api/image",
   "width": 1920,
   "height": 1599,

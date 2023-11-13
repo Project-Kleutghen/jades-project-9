@@ -1,0 +1,116 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/jades.json",
+  "@type": "sc:Collection",
+  "label": "jades",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade001/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade001"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade010/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade010"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade011/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade011"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade012a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade012a"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade015/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade015"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade016a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade016a"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade016b/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade016b"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade019/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade019"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade020/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade020"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade021/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade021"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade021a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade021a"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade024/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade024"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade028/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade028"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade035a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade035a"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade040/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade040"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade041/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade041"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade053/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade053"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade054/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade054"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade065/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade065"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade070/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade070"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/jade090/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "jade090"
+    }
+  ]
+}

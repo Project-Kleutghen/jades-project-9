@@ -59,13 +59,13 @@ kramdown:
 collections:
   exhibit: 
     output: true
-  my-collection: # name of collection
+  jades: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'hindustan_item' # the layout for the pages to use
     metadata:
-      source: 'collection_meta.csv' # path to the metadata file within `_data`
+      source: 'jades_meta.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images/my-collection' # path to the directory of images within `_data`
+      source: 'raw_images/jades' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -79,10 +79,9 @@ search:
   main:
     index: '/search/index.json' # file the index will get written to
     collections:
-      my-collection:
+      jades:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
-          - pid
           - object_origin
           - cultural_context
           - label_en
@@ -95,7 +94,6 @@ search:
           - inscription_text_en
           - pub_text
           - pub_text_source
-
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
 # --------------------------------------------------------------
@@ -116,8 +114,6 @@ menu:
     link: '/collection/'
   - label: 'Search'
     link: '/search/'
-  - label: 'Reuse'
-    link: '/reuse/'
   - label: 'Maps'
     sub:
       - label: 'Forbidden City Map'
