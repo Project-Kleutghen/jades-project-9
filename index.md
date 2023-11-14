@@ -2,8 +2,8 @@
 layout: page
 show_title: false
 banner:
-  collection: my-collection
-  pid: Jade015
+  collection: jades
+  pid: jade015
   y: 25%
   clickable: yes
   height: '500px'
@@ -20,4 +20,4 @@ The collection items in this edition of the website are from The National Palace
 
 #### By Item Type
 {% include collection_gallery.html facet_by='object_type_en'
-collection='my-collection' %}
+collection='jades' %}
